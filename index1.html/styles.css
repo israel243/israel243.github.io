@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar{
+    background-color: rgb(120, 107, 126);
+    position: fixed;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.navbar .container .menu-container li{
+   display: inline-block;
+}
+.navbar .container a{
+    color: white;
+ }
+ .navbar .container .menu-container ul{
+    padding: 3px 10px;
+ }
+ .navbar .container .menu-container li{
+    margin-left: 10px;
+ }
+ .menu-container a:hover{
+    color: black;
+    transition: 0,8s;
+ }
+ .container .logo-container a{
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .container .logo-container span{
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .section1{
+    height: 700px;
+    background-image: url("https://www.presse-citron.net/app/uploads/2019/03/myspace-musique.jpg");
+ }
+
+ 
+ 
+ .section1 .container2 {
+    padding-top: 250px;
+    padding-left: 180px;
+    color: rgb(255, 255, 248);
+ }
+ .section1 .container2 .text1 {
+    font-size: 35px;
+ }
+ .section1 .container2 .text2 {
+    font-size: 45px;
+    font-weight: 500;
+    color: rgb(103, 255, 237) ;
+ }
+ .section1 .container2 .text3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+.section1 .container2 .text3 span{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(13, 188, 92) ;
+}
+.section1 .container2 .bouton1 a{
+    border: 25x solide rgb(163, 42, 165) ;
+    background-color: rgb(60, 60, 165);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+  }
+.section1 .container2 .bouton1{
+    margin-top: 30px;
+}
+.section1 .container2 .bouton1 a:hover{
+    background: none;
+} 
+.section2 { 
+    height: 600px;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fprostopleer.com%2Fartist%2F152884%2Ffally-ipupa&psig=AOvVaw055FOWD9QLHlqJJrHqfXBA&ust=1666382979088000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPCHir7O7_oCFQAAAAAdAAAAABAJ")
+}
+.section2 h2{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline rgb(252, 255, 255);
+}
+.section2 > .container3{
+    display: flex;
+    padding: 10px 80px;
+}
+.contain-text{
+    margin-top: 60px;
+}
+.contain-text #p1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.contain-text #p2{
+    text-align: justify;
+    font-size: 20px;
+    color: black;
+}
+.section3 {
+    height: 500px;
+    background-color: rgb(227, 213, 213);
+    padding: 50px 100px;
+    color: rgb(31, 23, 23);
+}
+.section3 > .container4 h2{
+     align-items: center;
+}
+.section3 > .container4 > {
+  width: 450px;
+  height: 250px;
+  
+  margin: 10%;
+  border: 2px solid rgb(120, 107, 126);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
